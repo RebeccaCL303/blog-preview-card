@@ -1,0 +1,21 @@
+:root {
+ --main-accent: #f6d050;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+body {
+ background-color: var(--main-accent);
+}
+
+main {
+ background-color: whitesmoke;
+ aspect-ratio: 4 / 5;
+ width: 30vw;
+ margin: 5rem auto;
+ border-radius: 8%;
+ border: 1px solid black;
+ box-shadow: 7px 7px black;
+}
