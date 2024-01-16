@@ -10,12 +10,41 @@ body {
  background-color: var(--main-accent);
 }
 
-main {
+.bold {
+ font-weight: 600;
+}
+
+.card {
  background-color: whitesmoke;
  aspect-ratio: 4 / 5;
  width: 30vw;
  margin: 5rem auto;
- border-radius: 8%;
+ border-radius: 5%;
  border: 1px solid black;
  box-shadow: 7px 7px black;
+}
+
+figure {
+ width: 25vw;
+ margin: 2rem auto 0;
+}
+
+h1 {
+ font-size: 1.4rem;
+ margin-top: 1.5rem;
+}
+
+img {
+ width: 100%;
+ height: 100%;
+ object-fit: fill;
+}
+
+main {
+ margin: auto 2rem;
+}
+
+p:last-of-type {
+ position: relative;
+ bottom: -1.6rem;
 }
