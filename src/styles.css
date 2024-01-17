@@ -35,6 +35,12 @@ figure {
 h1 {
  font-size: 1.4rem;
  margin: 1.5rem 0 0.4rem;
+ transition: 200ms all ease-in-out;
+}
+
+h1:hover {
+ color: var(--main-accent);
+ cursor: pointer;
 }
 
 img {
@@ -67,9 +73,9 @@ p:last-of-type {
  bottom: -1.6rem;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
  .card {
-  width: 60vw;
+  width: 50vw;
  }
 }
 
